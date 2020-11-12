@@ -26,29 +26,33 @@ The purpose of this analysis was to recalculate the values and columns in the or
 ## Results 
 - How is the district summary affected?
     - By replacing the Thomas High School ninth graders, the percentages decreased. The ninth graders had a high values and by setting the ninth graders as null, the percentages declined.
-    - ![]()
-    - ![]()
+    - ![old](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/district_summary_old.png)
+    - ![new](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/district_summary_new.png)
 - How is the school summary affected?
     - For Thomas High School, the school summary highlights that percentages decreased after the removal of the THS ninth graders.
-    - ![]()
-    - ![]()
+    - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/school_summary_old.png)
+    - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/school_summary_new.png)
 - How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
     - Replacing the ninth graders' math and reading scores does not affect the Thomas High School's performance relative to the other schools. According to the school rankings, Thomas High School still sits at 2nd place regardless if the ninth grade scores are included in the dataset. 
-    - ![]()
-    - ![]()
-- How does replacing the ninth-grade scores affect the following:
+    - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/top_5_old.png)
+    - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/top_5_new.png)
+- How does replacing the ninth-grade scores affect the following - included are before and after images of the tables:
     - Math and reading scores by grade
-        - The ninth grade and Thomas High School cell is denoted with a NaN. That is the only difference. However, the math and reading scores for grades 10-12 are unchanged because they are dependent on variables that are not attributed to the ninth grade math and reading scores. 
+        - The ninth grade and Thomas High School cell is denoted with a NaN. That is the only difference. However, the math and reading scores for grades 10-12 are unchanged because they are dependent on variables that are not attributed to the ninth grade math and reading scores.
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/math_scores_by_grade_new.png)
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/reading_scores_by_grade_new.png)
     - Scores by school spending
         - There is no change. The scores by school spending are unchanged because the total number of students and budgets are the same. Therefore, the percentages are also the same.
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/school_spending_old.png)
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/school_spending_new.png)
     - Scores by school size
         - There is no change. The school size and the updated metricss have remained the same.
-        - ![]()
-        - ![]()
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/size_summary_old.png)
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/size_summary_new.png)
     - Scores by school type
         - There is no change. The school type and the updated metricss have remained the same.
-        - ![]()
-        - ![]()
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/school_type_old.png)
+        - ![](https://github.com/irenedepacina/School_District_Analysis/blob/main/Resources/school_type_new.png)
 
 ## Summary
 Four major changes to the school district analysis after the reading and the math scores had been replaced:
